@@ -21,7 +21,7 @@
 
 <div align="center">
   
-![CodeWars](https://www.codewars.com/users/Duyes/badges/large)](https://www.codewars.com/users/Duyes)
+![CodeWars](https://www.codewars.com/users/Duyes/badges/large)
   
 <img src="https://komarev.com/ghpvc/?username=Artem-Shk&style=flat&color=blue" alt=""/>
 </div>

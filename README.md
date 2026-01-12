@@ -28,7 +28,10 @@
 
 |  |  |
 |-|-|
-| October 2021 - present | **Laboratory Assistant** |
+| September 2021 - September 2022 | **Laboratory Assistant** |
 |  | Sochi branch of RUDN University<br>Sochi, www.rudn-sochi.ru/<br><br>Department for the development of digital technologies in educational processes<br><br>Work with the team, support of the portal, moderation of applications for those. support, tech. |
+| September 2022 - December 2024 | **Programmer** |
+|  | Sochi branch of RUDN University<br>Sochi, www.rudn-sochi.ru/<br><br>Department for the development of digital technologies in educational processes<br><br>Work with the team, support of the portal, moderation of applications for those. support, tech. |
+| December 2024 - december 2025 | **Military** |
 <img src="https://komarev.com/ghpvc/?username=Artem-Shk&style=flat&color=blue" alt=""/>
 </div>

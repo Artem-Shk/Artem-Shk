@@ -1,8 +1,6 @@
 name: Metrics
 on:
-  # Запуск каждые 6 часов (можешь поменять)
   schedule: [{cron: "0 */6 * * *"}]
-  # Или вручную по кнопке
   workflow_dispatch:
 jobs:
   github-metrics:
@@ -12,30 +10,18 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          # Твой PAT (см. шаг 3)
           token: ${{ secrets.METRICS_TOKEN }}
-          
-          # Откуда брать данные
           user: Artem-Shk
-          
-          # Какой шаблон использовать
           template: classic
-          
-          # Что показывать в базовом блоке (опционально)
           base: header, activity, community, repositories
           
-          # --- Плагины из твоего скриншота ---
-          
-          # Изометрический календарь коммитов
+          # Плагины
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year  # или half-year
-          
-          # Анализ языков программирования
+          plugin_isocalendar_duration: full-year
           plugin_languages: yes
-          plugin_languages_indepth: yes           # клонировать репозитории для точного анализа
-          plugin_languages_details: percentage, lines
+          plugin_languages_details: percentage
           
-          # Куда сохранять результат
+          # Сохраняем SVG в репозиторий
           output_action: commit
           committer_file: github-metrics.svg
           committer_message: "chore: update metrics"
